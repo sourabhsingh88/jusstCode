@@ -1,5 +1,5 @@
 import { useEffect, lazy, Suspense } from 'react'
-import { Routes, Route, useLocation } from 'react-router-dom'
+import { Routes, Route, useLocation, Navigate } from 'react-router-dom'
 import { useDispatch } from 'react-redux'
 import { motion, AnimatePresence } from 'framer-motion'
 import { getMe } from './store/authSlice'
@@ -57,7 +57,8 @@ export default function App() {
               <Route path="contact" element={<motion.div {...pageVariants}><Contact /></motion.div>} />
             </Route>
 
-            
+            {/* Fallback to Home */}
+            <Route path="*" element={<Navigate to="/" replace />} />
           </Routes>
         </Suspense>
       </AnimatePresence>
