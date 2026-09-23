@@ -764,17 +764,6 @@ function ScrollHeading({
 
 const projects = [
   {
-    id: 1,
-    title: 'The Alpha School',
-    category: 'SaaS',
-    image: 'https://scontent-bom5-1.xx.fbcdn.net/v/t39.30808-6/469981655_122111077196627507_7187180421328268391_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=2a1932&_nc_ohc=QrELANDxi1sQ7kNvwH8ePYB&_nc_oc=Adrb2i4J_-nxfu_BcT494LXQO2V5BNzqQ85tAuXH1gpjMo6bsrtJe7Eb2ttPDkVTKUaR0-sQ7WLO2YKZO_ZsDWlC&_nc_zt=23&_nc_ht=scontent-bom5-1.xx&_nc_gid=asc6bEp-OFv_e4QqMJY8xw&_nc_ss=7a389&oh=00_Af0H91q2FzrlmyMMwKTrPiKc_250sYD8f_IC_5qq_W3U_g&oe=69E3EAC0',
-    desc: 'A comprehensive financial management platform built for SMBs. Features include invoicing, expense tracking, payroll, and real-time reporting. Serves 500+ businesses globally.',
-    tech: ['React', 'Node.js', 'MongoDB', 'Stripe', 'Redis', 'AWS'],
-    url: 'https://thealphaSchool-demo.com',
-    client: 'FinTech Solutions Inc.',
-    color: '#6366f1',
-  },
-  {
     id: 2,
     title: 'Zinger - The Grocery App',
     category: 'Web App',
