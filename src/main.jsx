@@ -10,7 +10,8 @@ import './styles/globals.css'
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <Provider store={store}>
-      <BrowserRouter>
+      {/* <BrowserRouter> */}
+      <BrowserRouter basename="/jusstCode">
         <App />
         <Toaster
           position="top-right"
